@@ -75,7 +75,7 @@ class Model_Searchconsole extends Model {
             if ($client->isAccessTokenExpired()) {
 
                 header('Location: '.$client->createAuthUrl());
-                die();
+                //die();
             }
         } else {
             $data["authUrl"] = $client->createAuthUrl();

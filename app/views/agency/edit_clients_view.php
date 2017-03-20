@@ -338,7 +338,7 @@
                         });
                         <?php endif;?>
 
-                        $("#select-search-console").on('change', function() {
+                        $("#select-search-console").on('click', function() {
                             var site = $("#select-search-console").val();
                             console.log(site);
                             $.ajax({
