@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f6bebcb-fcf4-4d37-a27b-948e1b3832c3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/model_client.php" afterPath="$PROJECT_DIR$/app/models/model_client.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/model_searchconsole.php" afterPath="$PROJECT_DIR$/app/models/model_searchconsole.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,11 +17,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="model_client.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="model_client.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/model_client.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="346" column="25" lean-forward="true" selection-start-line="346" selection-start-column="25" selection-end-line="346" selection-end-column="45" />
+            <state relative-caret-position="550">
+              <caret line="349" column="16" lean-forward="true" selection-start-line="349" selection-start-column="16" selection-end-line="351" selection-end-column="87" />
               <folding>
                 <marker date="1490086488152" expanded="true" signature="2000:2023" ph="SELECT * FRO... clients" />
                 <marker date="1490086488152" expanded="true" signature="4020:4042" ph="SELECT * FRO... agency" />
@@ -41,32 +40,32 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="model_searchconsole.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/model_searchconsole.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="78" column="63" lean-forward="true" selection-start-line="78" selection-start-column="63" selection-end-line="78" selection-end-column="63" />
+              <folding>
+                <marker date="1490094465099" expanded="true" signature="8217:8391" ph="..." />
+                <marker date="1490094465099" expanded="true" signature="8399:8541" ph="..." />
+                <marker date="1490094465099" expanded="true" signature="8961:8985" ph="SELECT * FRO... client_api" />
+                <marker date="1490094465099" expanded="true" signature="9458:9482" ph="SELECT * FRO... client_api" />
+                <marker date="1490094465099" expanded="true" signature="10223:10388" ph="INSERT INTO client_api... " />
+                <marker date="1490094465099" expanded="true" signature="10562:10586" ph="SELECT * FRO... client_api" />
+                <marker date="1490094465099" expanded="true" signature="11134:11157" ph="SELECT * FRO... clients" />
+                <marker date="1490094465099" expanded="true" signature="11404:11426" ph="SELECT * FRO... agency" />
+                <marker date="1490094465099" expanded="true" signature="11775:11834" ph="INSERT INTO `hash`... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="edit_clients_view.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/agency/edit_clients_view.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="5780">
               <caret line="340" column="61" lean-forward="false" selection-start-line="340" selection-start-column="61" selection-end-line="340" selection-end-column="61" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="model_searchconsole.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/model_searchconsole.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1309">
-              <caret line="77" column="18" lean-forward="false" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
-              <folding>
-                <marker date="1490007546537" expanded="true" signature="8004:8178" ph="..." />
-                <marker date="1490007546537" expanded="true" signature="8186:8328" ph="..." />
-                <marker date="1490007546537" expanded="true" signature="8748:8772" ph="SELECT * FRO... client_api" />
-                <marker date="1490007546537" expanded="true" signature="9245:9269" ph="SELECT * FRO... client_api" />
-                <marker date="1490007546537" expanded="true" signature="10010:10175" ph="INSERT INTO client_api... " />
-                <marker date="1490007546537" expanded="true" signature="10349:10373" ph="SELECT * FRO... client_api" />
-                <marker date="1490007546537" expanded="true" signature="10921:10944" ph="SELECT * FRO... clients" />
-                <marker date="1490007546537" expanded="true" signature="11191:11213" ph="SELECT * FRO... agency" />
-                <marker date="1490007546537" expanded="true" signature="11562:11621" ph="INSERT INTO `hash`... " />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -80,9 +79,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/views/agency/agency_client_template_view.php" />
-        <option value="$PROJECT_DIR$/app/models/model_searchconsole.php" />
         <option value="$PROJECT_DIR$/app/views/agency/edit_clients_view.php" />
         <option value="$PROJECT_DIR$/app/models/model_client.php" />
+        <option value="$PROJECT_DIR$/app/models/model_searchconsole.php" />
       </list>
     </option>
   </component>
@@ -136,61 +135,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="credentials" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="white-label.dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="white-label.dev" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="white-label.dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="white-label.dev" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="white-label.dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="white-label.dev" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="agency" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -209,24 +154,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="white-label.dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="white-label.dev" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -317,12 +244,12 @@
       <workItem from="1490007388298" duration="4344000" />
       <workItem from="1490022995680" duration="23000" />
       <workItem from="1490024336838" duration="3014000" />
-      <workItem from="1490083094304" duration="4631000" />
+      <workItem from="1490083094304" duration="6005000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21379000" />
+    <option name="totallyTimeSpent" value="22753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -392,15 +319,15 @@
         <state relative-caret-position="1309">
           <caret line="77" column="18" lean-forward="false" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
           <folding>
-            <marker date="1490007546537" expanded="true" signature="8004:8178" ph="..." />
-            <marker date="1490007546537" expanded="true" signature="8186:8328" ph="..." />
-            <marker date="1490007546537" expanded="true" signature="8748:8772" ph="SELECT * FRO... client_api" />
-            <marker date="1490007546537" expanded="true" signature="9245:9269" ph="SELECT * FRO... client_api" />
-            <marker date="1490007546537" expanded="true" signature="10010:10175" ph="INSERT INTO client_api... " />
-            <marker date="1490007546537" expanded="true" signature="10349:10373" ph="SELECT * FRO... client_api" />
-            <marker date="1490007546537" expanded="true" signature="10921:10944" ph="SELECT * FRO... clients" />
-            <marker date="1490007546537" expanded="true" signature="11191:11213" ph="SELECT * FRO... agency" />
-            <marker date="1490007546537" expanded="true" signature="11562:11621" ph="INSERT INTO `hash`... " />
+            <marker date="1490094465099" expanded="true" signature="8217:8391" ph="..." />
+            <marker date="1490094465099" expanded="true" signature="8399:8541" ph="..." />
+            <marker date="1490094465099" expanded="true" signature="8961:8985" ph="SELECT * FRO... client_api" />
+            <marker date="1490094465099" expanded="true" signature="9458:9482" ph="SELECT * FRO... client_api" />
+            <marker date="1490094465099" expanded="true" signature="10223:10388" ph="INSERT INTO client_api... " />
+            <marker date="1490094465099" expanded="true" signature="10562:10586" ph="SELECT * FRO... client_api" />
+            <marker date="1490094465099" expanded="true" signature="11134:11157" ph="SELECT * FRO... clients" />
+            <marker date="1490094465099" expanded="true" signature="11404:11426" ph="SELECT * FRO... agency" />
+            <marker date="1490094465099" expanded="true" signature="11775:11834" ph="INSERT INTO `hash`... " />
           </folding>
         </state>
       </provider>
@@ -439,15 +366,15 @@
         <state relative-caret-position="1309">
           <caret line="77" column="18" lean-forward="false" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
           <folding>
-            <marker date="1490007546537" expanded="true" signature="8004:8178" ph="..." />
-            <marker date="1490007546537" expanded="true" signature="8186:8328" ph="..." />
-            <marker date="1490007546537" expanded="true" signature="8748:8772" ph="SELECT * FRO... client_api" />
-            <marker date="1490007546537" expanded="true" signature="9245:9269" ph="SELECT * FRO... client_api" />
-            <marker date="1490007546537" expanded="true" signature="10010:10175" ph="INSERT INTO client_api... " />
-            <marker date="1490007546537" expanded="true" signature="10349:10373" ph="SELECT * FRO... client_api" />
-            <marker date="1490007546537" expanded="true" signature="10921:10944" ph="SELECT * FRO... clients" />
-            <marker date="1490007546537" expanded="true" signature="11191:11213" ph="SELECT * FRO... agency" />
-            <marker date="1490007546537" expanded="true" signature="11562:11621" ph="INSERT INTO `hash`... " />
+            <marker date="1490094465099" expanded="true" signature="8217:8391" ph="..." />
+            <marker date="1490094465099" expanded="true" signature="8399:8541" ph="..." />
+            <marker date="1490094465099" expanded="true" signature="8961:8985" ph="SELECT * FRO... client_api" />
+            <marker date="1490094465099" expanded="true" signature="9458:9482" ph="SELECT * FRO... client_api" />
+            <marker date="1490094465099" expanded="true" signature="10223:10388" ph="INSERT INTO client_api... " />
+            <marker date="1490094465099" expanded="true" signature="10562:10586" ph="SELECT * FRO... client_api" />
+            <marker date="1490094465099" expanded="true" signature="11134:11157" ph="SELECT * FRO... clients" />
+            <marker date="1490094465099" expanded="true" signature="11404:11426" ph="SELECT * FRO... agency" />
+            <marker date="1490094465099" expanded="true" signature="11775:11834" ph="INSERT INTO `hash`... " />
           </folding>
         </state>
       </provider>
@@ -486,15 +413,15 @@
         <state relative-caret-position="1309">
           <caret line="77" column="18" lean-forward="false" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
           <folding>
-            <marker date="1490007546537" expanded="true" signature="8004:8178" ph="..." />
-            <marker date="1490007546537" expanded="true" signature="8186:8328" ph="..." />
-            <marker date="1490007546537" expanded="true" signature="8748:8772" ph="SELECT * FRO... client_api" />
-            <marker date="1490007546537" expanded="true" signature="9245:9269" ph="SELECT * FRO... client_api" />
-            <marker date="1490007546537" expanded="true" signature="10010:10175" ph="INSERT INTO client_api... " />
-            <marker date="1490007546537" expanded="true" signature="10349:10373" ph="SELECT * FRO... client_api" />
-            <marker date="1490007546537" expanded="true" signature="10921:10944" ph="SELECT * FRO... clients" />
-            <marker date="1490007546537" expanded="true" signature="11191:11213" ph="SELECT * FRO... agency" />
-            <marker date="1490007546537" expanded="true" signature="11562:11621" ph="INSERT INTO `hash`... " />
+            <marker date="1490094465099" expanded="true" signature="8217:8391" ph="..." />
+            <marker date="1490094465099" expanded="true" signature="8399:8541" ph="..." />
+            <marker date="1490094465099" expanded="true" signature="8961:8985" ph="SELECT * FRO... client_api" />
+            <marker date="1490094465099" expanded="true" signature="9458:9482" ph="SELECT * FRO... client_api" />
+            <marker date="1490094465099" expanded="true" signature="10223:10388" ph="INSERT INTO client_api... " />
+            <marker date="1490094465099" expanded="true" signature="10562:10586" ph="SELECT * FRO... client_api" />
+            <marker date="1490094465099" expanded="true" signature="11134:11157" ph="SELECT * FRO... clients" />
+            <marker date="1490094465099" expanded="true" signature="11404:11426" ph="SELECT * FRO... agency" />
+            <marker date="1490094465099" expanded="true" signature="11775:11834" ph="INSERT INTO `hash`... " />
           </folding>
         </state>
       </provider>
@@ -525,15 +452,15 @@
         <state relative-caret-position="5219">
           <caret line="307" column="9" lean-forward="false" selection-start-line="307" selection-start-column="9" selection-end-line="307" selection-end-column="9" />
           <folding>
-            <marker date="1490007546537" expanded="true" signature="8004:8178" ph="..." />
-            <marker date="1490007546537" expanded="true" signature="8186:8328" ph="..." />
-            <marker date="1490007546537" expanded="true" signature="8748:8772" ph="SELECT * FRO... client_api" />
-            <marker date="1490007546537" expanded="true" signature="9245:9269" ph="SELECT * FRO... client_api" />
-            <marker date="1490007546537" expanded="true" signature="10010:10175" ph="INSERT INTO client_api... " />
-            <marker date="1490007546537" expanded="true" signature="10349:10373" ph="SELECT * FRO... client_api" />
-            <marker date="1490007546537" expanded="true" signature="10921:10944" ph="SELECT * FRO... clients" />
-            <marker date="1490007546537" expanded="true" signature="11191:11213" ph="SELECT * FRO... agency" />
-            <marker date="1490007546537" expanded="true" signature="11562:11621" ph="INSERT INTO `hash`... " />
+            <marker date="1490094465099" expanded="true" signature="8217:8391" ph="..." />
+            <marker date="1490094465099" expanded="true" signature="8399:8541" ph="..." />
+            <marker date="1490094465099" expanded="true" signature="8961:8985" ph="SELECT * FRO... client_api" />
+            <marker date="1490094465099" expanded="true" signature="9458:9482" ph="SELECT * FRO... client_api" />
+            <marker date="1490094465099" expanded="true" signature="10223:10388" ph="INSERT INTO client_api... " />
+            <marker date="1490094465099" expanded="true" signature="10562:10586" ph="SELECT * FRO... client_api" />
+            <marker date="1490094465099" expanded="true" signature="11134:11157" ph="SELECT * FRO... clients" />
+            <marker date="1490094465099" expanded="true" signature="11404:11426" ph="SELECT * FRO... agency" />
+            <marker date="1490094465099" expanded="true" signature="11775:11834" ph="INSERT INTO `hash`... " />
           </folding>
         </state>
       </provider>
@@ -564,15 +491,15 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1490007546537" expanded="true" signature="8004:8178" ph="..." />
-            <marker date="1490007546537" expanded="true" signature="8186:8328" ph="..." />
-            <marker date="1490007546537" expanded="true" signature="8748:8772" ph="SELECT * FRO... client_api" />
-            <marker date="1490007546537" expanded="true" signature="9245:9269" ph="SELECT * FRO... client_api" />
-            <marker date="1490007546537" expanded="true" signature="10010:10175" ph="INSERT INTO client_api... " />
-            <marker date="1490007546537" expanded="true" signature="10349:10373" ph="SELECT * FRO... client_api" />
-            <marker date="1490007546537" expanded="true" signature="10921:10944" ph="SELECT * FRO... clients" />
-            <marker date="1490007546537" expanded="true" signature="11191:11213" ph="SELECT * FRO... agency" />
-            <marker date="1490007546537" expanded="true" signature="11562:11621" ph="INSERT INTO `hash`... " />
+            <marker date="1490094465099" expanded="true" signature="8217:8391" ph="..." />
+            <marker date="1490094465099" expanded="true" signature="8399:8541" ph="..." />
+            <marker date="1490094465099" expanded="true" signature="8961:8985" ph="SELECT * FRO... client_api" />
+            <marker date="1490094465099" expanded="true" signature="9458:9482" ph="SELECT * FRO... client_api" />
+            <marker date="1490094465099" expanded="true" signature="10223:10388" ph="INSERT INTO client_api... " />
+            <marker date="1490094465099" expanded="true" signature="10562:10586" ph="SELECT * FRO... client_api" />
+            <marker date="1490094465099" expanded="true" signature="11134:11157" ph="SELECT * FRO... clients" />
+            <marker date="1490094465099" expanded="true" signature="11404:11426" ph="SELECT * FRO... agency" />
+            <marker date="1490094465099" expanded="true" signature="11775:11834" ph="INSERT INTO `hash`... " />
           </folding>
         </state>
       </provider>
@@ -621,24 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/model_searchconsole.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="77" column="18" lean-forward="false" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
-          <folding>
-            <marker date="1490007546537" expanded="true" signature="8004:8178" ph="..." />
-            <marker date="1490007546537" expanded="true" signature="8186:8328" ph="..." />
-            <marker date="1490007546537" expanded="true" signature="8748:8772" ph="SELECT * FRO... client_api" />
-            <marker date="1490007546537" expanded="true" signature="9245:9269" ph="SELECT * FRO... client_api" />
-            <marker date="1490007546537" expanded="true" signature="10010:10175" ph="INSERT INTO client_api... " />
-            <marker date="1490007546537" expanded="true" signature="10349:10373" ph="SELECT * FRO... client_api" />
-            <marker date="1490007546537" expanded="true" signature="10921:10944" ph="SELECT * FRO... clients" />
-            <marker date="1490007546537" expanded="true" signature="11191:11213" ph="SELECT * FRO... agency" />
-            <marker date="1490007546537" expanded="true" signature="11562:11621" ph="INSERT INTO `hash`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/controller_searchconsole.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -656,8 +565,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/model_client.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="346" column="25" lean-forward="true" selection-start-line="346" selection-start-column="25" selection-end-line="346" selection-end-column="45" />
+        <state relative-caret-position="550">
+          <caret line="349" column="16" lean-forward="true" selection-start-line="349" selection-start-column="16" selection-end-line="351" selection-end-column="87" />
           <folding>
             <marker date="1490086488152" expanded="true" signature="2000:2023" ph="SELECT * FRO... clients" />
             <marker date="1490086488152" expanded="true" signature="4020:4042" ph="SELECT * FRO... agency" />
@@ -671,6 +580,24 @@
             <marker date="1490086488152" expanded="true" signature="13354:13378" ph="SELECT * FRO... client_api" />
             <marker date="1490086488152" expanded="true" signature="13725:13748" ph="SELECT * FRO... clients" />
             <marker date="1490086488152" expanded="true" signature="14020:14042" ph="SELECT * FRO... agency" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/model_searchconsole.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="78" column="63" lean-forward="true" selection-start-line="78" selection-start-column="63" selection-end-line="78" selection-end-column="63" />
+          <folding>
+            <marker date="1490094465099" expanded="true" signature="8217:8391" ph="..." />
+            <marker date="1490094465099" expanded="true" signature="8399:8541" ph="..." />
+            <marker date="1490094465099" expanded="true" signature="8961:8985" ph="SELECT * FRO... client_api" />
+            <marker date="1490094465099" expanded="true" signature="9458:9482" ph="SELECT * FRO... client_api" />
+            <marker date="1490094465099" expanded="true" signature="10223:10388" ph="INSERT INTO client_api... " />
+            <marker date="1490094465099" expanded="true" signature="10562:10586" ph="SELECT * FRO... client_api" />
+            <marker date="1490094465099" expanded="true" signature="11134:11157" ph="SELECT * FRO... clients" />
+            <marker date="1490094465099" expanded="true" signature="11404:11426" ph="SELECT * FRO... agency" />
+            <marker date="1490094465099" expanded="true" signature="11775:11834" ph="INSERT INTO `hash`... " />
           </folding>
         </state>
       </provider>

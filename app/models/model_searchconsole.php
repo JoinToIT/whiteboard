@@ -31,6 +31,8 @@ class Model_Searchconsole extends Model {
         $redirect_uri = 'http://' . $_SERVER['HTTP_HOST'] . '/client/clientinfo';
 
         $client = $this->client;
+        $client->setAccessType("offline");
+        $client->setIncludeGrantedScopes(true);
         $client->setAuthConfig($oauth_credentials);
         $client->setRedirectUri($redirect_uri);
         $client->addScope("https://www.googleapis.com/auth/webmasters");
@@ -74,8 +76,9 @@ class Model_Searchconsole extends Model {
             $client->setAccessToken($accessTokenDB);
             if ($client->isAccessTokenExpired()) {
 
-                header('Location: '.$client->createAuthUrl());
-                //die();
+                $token = $client->refreshToken($accessTokenDB);
+                $access_token_json = json_encode($token);
+                $this->updateAccessTokenDB($agency_id, $client_id, $access_token_json);
             }
         } else {
             $data["authUrl"] = $client->createAuthUrl();
