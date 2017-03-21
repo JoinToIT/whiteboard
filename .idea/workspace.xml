@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f6bebcb-fcf4-4d37-a27b-948e1b3832c3" name="Default" comment="" />
+    <list default="true" id="8f6bebcb-fcf4-4d37-a27b-948e1b3832c3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/model_client.php" afterPath="$PROJECT_DIR$/app/models/model_client.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,33 +18,33 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="model_client.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="model_client.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/model_client.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="635">
-              <caret line="348" column="18" lean-forward="false" selection-start-line="348" selection-start-column="18" selection-end-line="348" selection-end-column="18" />
+            <state relative-caret-position="101">
+              <caret line="346" column="25" lean-forward="true" selection-start-line="346" selection-start-column="25" selection-end-line="346" selection-end-column="45" />
               <folding>
-                <marker date="1490007546391" expanded="true" signature="2000:2023" ph="SELECT * FRO... clients" />
-                <marker date="1490007546391" expanded="true" signature="4020:4042" ph="SELECT * FRO... agency" />
-                <marker date="1490007546391" expanded="true" signature="4318:4341" ph="SELECT * FRO... clients" />
-                <marker date="1490007546391" expanded="true" signature="6038:6149" ph="INSERT INTO gmetrix... " />
-                <marker date="1490007546391" expanded="true" signature="7122:7277" ph="INSERT INTO client_api... " />
-                <marker date="1490007546391" expanded="true" signature="11261:11435" ph="..." />
-                <marker date="1490007546391" expanded="true" signature="11443:11585" ph="..." />
-                <marker date="1490007546391" expanded="true" signature="11984:12008" ph="SELECT * FRO... client_api" />
-                <marker date="1490007546391" expanded="true" signature="12749:12914" ph="INSERT INTO client_api... " />
-                <marker date="1490007546391" expanded="true" signature="13088:13112" ph="SELECT * FRO... client_api" />
-                <marker date="1490007546391" expanded="true" signature="13459:13482" ph="SELECT * FRO... clients" />
-                <marker date="1490007546391" expanded="true" signature="13754:13776" ph="SELECT * FRO... agency" />
+                <marker date="1490086488152" expanded="true" signature="2000:2023" ph="SELECT * FRO... clients" />
+                <marker date="1490086488152" expanded="true" signature="4020:4042" ph="SELECT * FRO... agency" />
+                <marker date="1490086488152" expanded="true" signature="4318:4341" ph="SELECT * FRO... clients" />
+                <marker date="1490086488152" expanded="true" signature="6038:6149" ph="INSERT INTO gmetrix... " />
+                <marker date="1490086488152" expanded="true" signature="7122:7277" ph="INSERT INTO client_api... " />
+                <marker date="1490086488152" expanded="true" signature="11457:11631" ph="..." />
+                <marker date="1490086488152" expanded="true" signature="11639:11781" ph="..." />
+                <marker date="1490086488152" expanded="true" signature="12250:12274" ph="SELECT * FRO... client_api" />
+                <marker date="1490086488152" expanded="true" signature="13015:13180" ph="INSERT INTO client_api... " />
+                <marker date="1490086488152" expanded="true" signature="13354:13378" ph="SELECT * FRO... client_api" />
+                <marker date="1490086488152" expanded="true" signature="13725:13748" ph="SELECT * FRO... clients" />
+                <marker date="1490086488152" expanded="true" signature="14020:14042" ph="SELECT * FRO... agency" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit_clients_view.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="edit_clients_view.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/agency/edit_clients_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
+            <state relative-caret-position="5780">
               <caret line="340" column="61" lean-forward="false" selection-start-line="340" selection-start-column="61" selection-end-line="340" selection-end-column="61" />
               <folding />
             </state>
@@ -51,7 +54,7 @@
       <file leaf-file-name="model_searchconsole.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/model_searchconsole.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
+            <state relative-caret-position="1309">
               <caret line="77" column="18" lean-forward="false" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
               <folding>
                 <marker date="1490007546537" expanded="true" signature="8004:8178" ph="..." />
@@ -77,9 +80,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/views/agency/agency_client_template_view.php" />
-        <option value="$PROJECT_DIR$/app/models/model_client.php" />
         <option value="$PROJECT_DIR$/app/models/model_searchconsole.php" />
         <option value="$PROJECT_DIR$/app/views/agency/edit_clients_view.php" />
+        <option value="$PROJECT_DIR$/app/models/model_client.php" />
       </list>
     </option>
   </component>
@@ -229,13 +232,74 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../josh.local" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -250,15 +314,18 @@
       <workItem from="1489155359116" duration="5770000" />
       <workItem from="1489164038172" duration="2214000" />
       <workItem from="1489391817410" duration="1383000" />
-      <workItem from="1490007388298" duration="993000" />
+      <workItem from="1490007388298" duration="4344000" />
+      <workItem from="1490022995680" duration="23000" />
+      <workItem from="1490024336838" duration="3014000" />
+      <workItem from="1490083094304" duration="4631000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10360000" />
+    <option name="totallyTimeSpent" value="21379000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="7" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.246875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -296,18 +363,159 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1490007546391" expanded="true" signature="2000:2023" ph="SELECT * FRO... clients" />
-            <marker date="1490007546391" expanded="true" signature="4020:4042" ph="SELECT * FRO... agency" />
-            <marker date="1490007546391" expanded="true" signature="4318:4341" ph="SELECT * FRO... clients" />
-            <marker date="1490007546391" expanded="true" signature="6038:6149" ph="INSERT INTO gmetrix... " />
-            <marker date="1490007546391" expanded="true" signature="7122:7277" ph="INSERT INTO client_api... " />
-            <marker date="1490007546391" expanded="true" signature="11261:11435" ph="..." />
-            <marker date="1490007546391" expanded="true" signature="11443:11585" ph="..." />
-            <marker date="1490007546391" expanded="true" signature="11984:12008" ph="SELECT * FRO... client_api" />
-            <marker date="1490007546391" expanded="true" signature="12749:12914" ph="INSERT INTO client_api... " />
-            <marker date="1490007546391" expanded="true" signature="13088:13112" ph="SELECT * FRO... client_api" />
-            <marker date="1490007546391" expanded="true" signature="13459:13482" ph="SELECT * FRO... clients" />
-            <marker date="1490007546391" expanded="true" signature="13754:13776" ph="SELECT * FRO... agency" />
+            <marker date="1490086488152" expanded="true" signature="2000:2023" ph="SELECT * FRO... clients" />
+            <marker date="1490086488152" expanded="true" signature="4020:4042" ph="SELECT * FRO... agency" />
+            <marker date="1490086488152" expanded="true" signature="4318:4341" ph="SELECT * FRO... clients" />
+            <marker date="1490086488152" expanded="true" signature="6038:6149" ph="INSERT INTO gmetrix... " />
+            <marker date="1490086488152" expanded="true" signature="7122:7277" ph="INSERT INTO client_api... " />
+            <marker date="1490086488152" expanded="true" signature="11457:11631" ph="..." />
+            <marker date="1490086488152" expanded="true" signature="11639:11781" ph="..." />
+            <marker date="1490086488152" expanded="true" signature="12250:12274" ph="SELECT * FRO... client_api" />
+            <marker date="1490086488152" expanded="true" signature="13015:13180" ph="INSERT INTO client_api... " />
+            <marker date="1490086488152" expanded="true" signature="13354:13378" ph="SELECT * FRO... client_api" />
+            <marker date="1490086488152" expanded="true" signature="13725:13748" ph="SELECT * FRO... clients" />
+            <marker date="1490086488152" expanded="true" signature="14020:14042" ph="SELECT * FRO... agency" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/agency/edit_clients_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5780">
+          <caret line="340" column="61" lean-forward="false" selection-start-line="340" selection-start-column="61" selection-end-line="340" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/model_searchconsole.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" column="18" lean-forward="false" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+          <folding>
+            <marker date="1490007546537" expanded="true" signature="8004:8178" ph="..." />
+            <marker date="1490007546537" expanded="true" signature="8186:8328" ph="..." />
+            <marker date="1490007546537" expanded="true" signature="8748:8772" ph="SELECT * FRO... client_api" />
+            <marker date="1490007546537" expanded="true" signature="9245:9269" ph="SELECT * FRO... client_api" />
+            <marker date="1490007546537" expanded="true" signature="10010:10175" ph="INSERT INTO client_api... " />
+            <marker date="1490007546537" expanded="true" signature="10349:10373" ph="SELECT * FRO... client_api" />
+            <marker date="1490007546537" expanded="true" signature="10921:10944" ph="SELECT * FRO... clients" />
+            <marker date="1490007546537" expanded="true" signature="11191:11213" ph="SELECT * FRO... agency" />
+            <marker date="1490007546537" expanded="true" signature="11562:11621" ph="INSERT INTO `hash`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/model_client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1490086488152" expanded="true" signature="2000:2023" ph="SELECT * FRO... clients" />
+            <marker date="1490086488152" expanded="true" signature="4020:4042" ph="SELECT * FRO... agency" />
+            <marker date="1490086488152" expanded="true" signature="4318:4341" ph="SELECT * FRO... clients" />
+            <marker date="1490086488152" expanded="true" signature="6038:6149" ph="INSERT INTO gmetrix... " />
+            <marker date="1490086488152" expanded="true" signature="7122:7277" ph="INSERT INTO client_api... " />
+            <marker date="1490086488152" expanded="true" signature="11457:11631" ph="..." />
+            <marker date="1490086488152" expanded="true" signature="11639:11781" ph="..." />
+            <marker date="1490086488152" expanded="true" signature="12250:12274" ph="SELECT * FRO... client_api" />
+            <marker date="1490086488152" expanded="true" signature="13015:13180" ph="INSERT INTO client_api... " />
+            <marker date="1490086488152" expanded="true" signature="13354:13378" ph="SELECT * FRO... client_api" />
+            <marker date="1490086488152" expanded="true" signature="13725:13748" ph="SELECT * FRO... clients" />
+            <marker date="1490086488152" expanded="true" signature="14020:14042" ph="SELECT * FRO... agency" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/agency/edit_clients_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5780">
+          <caret line="340" column="61" lean-forward="false" selection-start-line="340" selection-start-column="61" selection-end-line="340" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/model_searchconsole.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" column="18" lean-forward="false" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+          <folding>
+            <marker date="1490007546537" expanded="true" signature="8004:8178" ph="..." />
+            <marker date="1490007546537" expanded="true" signature="8186:8328" ph="..." />
+            <marker date="1490007546537" expanded="true" signature="8748:8772" ph="SELECT * FRO... client_api" />
+            <marker date="1490007546537" expanded="true" signature="9245:9269" ph="SELECT * FRO... client_api" />
+            <marker date="1490007546537" expanded="true" signature="10010:10175" ph="INSERT INTO client_api... " />
+            <marker date="1490007546537" expanded="true" signature="10349:10373" ph="SELECT * FRO... client_api" />
+            <marker date="1490007546537" expanded="true" signature="10921:10944" ph="SELECT * FRO... clients" />
+            <marker date="1490007546537" expanded="true" signature="11191:11213" ph="SELECT * FRO... agency" />
+            <marker date="1490007546537" expanded="true" signature="11562:11621" ph="INSERT INTO `hash`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/model_client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1490086488152" expanded="true" signature="2000:2023" ph="SELECT * FRO... clients" />
+            <marker date="1490086488152" expanded="true" signature="4020:4042" ph="SELECT * FRO... agency" />
+            <marker date="1490086488152" expanded="true" signature="4318:4341" ph="SELECT * FRO... clients" />
+            <marker date="1490086488152" expanded="true" signature="6038:6149" ph="INSERT INTO gmetrix... " />
+            <marker date="1490086488152" expanded="true" signature="7122:7277" ph="INSERT INTO client_api... " />
+            <marker date="1490086488152" expanded="true" signature="11457:11631" ph="..." />
+            <marker date="1490086488152" expanded="true" signature="11639:11781" ph="..." />
+            <marker date="1490086488152" expanded="true" signature="12250:12274" ph="SELECT * FRO... client_api" />
+            <marker date="1490086488152" expanded="true" signature="13015:13180" ph="INSERT INTO client_api... " />
+            <marker date="1490086488152" expanded="true" signature="13354:13378" ph="SELECT * FRO... client_api" />
+            <marker date="1490086488152" expanded="true" signature="13725:13748" ph="SELECT * FRO... clients" />
+            <marker date="1490086488152" expanded="true" signature="14020:14042" ph="SELECT * FRO... agency" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/agency/edit_clients_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5780">
+          <caret line="340" column="61" lean-forward="false" selection-start-line="340" selection-start-column="61" selection-end-line="340" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/model_searchconsole.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" column="18" lean-forward="false" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+          <folding>
+            <marker date="1490007546537" expanded="true" signature="8004:8178" ph="..." />
+            <marker date="1490007546537" expanded="true" signature="8186:8328" ph="..." />
+            <marker date="1490007546537" expanded="true" signature="8748:8772" ph="SELECT * FRO... client_api" />
+            <marker date="1490007546537" expanded="true" signature="9245:9269" ph="SELECT * FRO... client_api" />
+            <marker date="1490007546537" expanded="true" signature="10010:10175" ph="INSERT INTO client_api... " />
+            <marker date="1490007546537" expanded="true" signature="10349:10373" ph="SELECT * FRO... client_api" />
+            <marker date="1490007546537" expanded="true" signature="10921:10944" ph="SELECT * FRO... clients" />
+            <marker date="1490007546537" expanded="true" signature="11191:11213" ph="SELECT * FRO... agency" />
+            <marker date="1490007546537" expanded="true" signature="11562:11621" ph="INSERT INTO `hash`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/model_client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1490086488152" expanded="true" signature="2000:2023" ph="SELECT * FRO... clients" />
+            <marker date="1490086488152" expanded="true" signature="4020:4042" ph="SELECT * FRO... agency" />
+            <marker date="1490086488152" expanded="true" signature="4318:4341" ph="SELECT * FRO... clients" />
+            <marker date="1490086488152" expanded="true" signature="6038:6149" ph="INSERT INTO gmetrix... " />
+            <marker date="1490086488152" expanded="true" signature="7122:7277" ph="INSERT INTO client_api... " />
+            <marker date="1490086488152" expanded="true" signature="11457:11631" ph="..." />
+            <marker date="1490086488152" expanded="true" signature="11639:11781" ph="..." />
+            <marker date="1490086488152" expanded="true" signature="12250:12274" ph="SELECT * FRO... client_api" />
+            <marker date="1490086488152" expanded="true" signature="13015:13180" ph="INSERT INTO client_api... " />
+            <marker date="1490086488152" expanded="true" signature="13354:13378" ph="SELECT * FRO... client_api" />
+            <marker date="1490086488152" expanded="true" signature="13725:13748" ph="SELECT * FRO... clients" />
+            <marker date="1490086488152" expanded="true" signature="14020:14042" ph="SELECT * FRO... agency" />
           </folding>
         </state>
       </provider>
@@ -335,18 +543,18 @@
         <state relative-caret-position="5780">
           <caret line="340" column="16" lean-forward="false" selection-start-line="340" selection-start-column="16" selection-end-line="340" selection-end-column="16" />
           <folding>
-            <marker date="1490007546391" expanded="true" signature="2000:2023" ph="SELECT * FRO... clients" />
-            <marker date="1490007546391" expanded="true" signature="4020:4042" ph="SELECT * FRO... agency" />
-            <marker date="1490007546391" expanded="true" signature="4318:4341" ph="SELECT * FRO... clients" />
-            <marker date="1490007546391" expanded="true" signature="6038:6149" ph="INSERT INTO gmetrix... " />
-            <marker date="1490007546391" expanded="true" signature="7122:7277" ph="INSERT INTO client_api... " />
-            <marker date="1490007546391" expanded="true" signature="11261:11435" ph="..." />
-            <marker date="1490007546391" expanded="true" signature="11443:11585" ph="..." />
-            <marker date="1490007546391" expanded="true" signature="11984:12008" ph="SELECT * FRO... client_api" />
-            <marker date="1490007546391" expanded="true" signature="12749:12914" ph="INSERT INTO client_api... " />
-            <marker date="1490007546391" expanded="true" signature="13088:13112" ph="SELECT * FRO... client_api" />
-            <marker date="1490007546391" expanded="true" signature="13459:13482" ph="SELECT * FRO... clients" />
-            <marker date="1490007546391" expanded="true" signature="13754:13776" ph="SELECT * FRO... agency" />
+            <marker date="1490086488152" expanded="true" signature="2000:2023" ph="SELECT * FRO... clients" />
+            <marker date="1490086488152" expanded="true" signature="4020:4042" ph="SELECT * FRO... agency" />
+            <marker date="1490086488152" expanded="true" signature="4318:4341" ph="SELECT * FRO... clients" />
+            <marker date="1490086488152" expanded="true" signature="6038:6149" ph="INSERT INTO gmetrix... " />
+            <marker date="1490086488152" expanded="true" signature="7122:7277" ph="INSERT INTO client_api... " />
+            <marker date="1490086488152" expanded="true" signature="11457:11631" ph="..." />
+            <marker date="1490086488152" expanded="true" signature="11639:11781" ph="..." />
+            <marker date="1490086488152" expanded="true" signature="12250:12274" ph="SELECT * FRO... client_api" />
+            <marker date="1490086488152" expanded="true" signature="13015:13180" ph="INSERT INTO client_api... " />
+            <marker date="1490086488152" expanded="true" signature="13354:13378" ph="SELECT * FRO... client_api" />
+            <marker date="1490086488152" expanded="true" signature="13725:13748" ph="SELECT * FRO... clients" />
+            <marker date="1490086488152" expanded="true" signature="14020:14042" ph="SELECT * FRO... agency" />
           </folding>
         </state>
       </provider>
@@ -381,15 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/controller_client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="135" column="55" lean-forward="true" selection-start-line="135" selection-start-column="55" selection-end-line="135" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -397,11 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1734">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1489155673178" expanded="true" signature="4339:4544" ph="..." />
-            <marker date="1489155673178" expanded="true" signature="4358:4493" ph="..." />
-            <marker date="1489155673178" expanded="true" signature="4512:4544" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -409,15 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="92" column="52" lean-forward="false" selection-start-line="92" selection-start-column="52" selection-end-line="92" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/controller_searchconsole.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -428,9 +613,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/agency/edit_clients_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5780">
+          <caret line="340" column="61" lean-forward="false" selection-start-line="340" selection-start-column="61" selection-end-line="340" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/model_searchconsole.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
+        <state relative-caret-position="1309">
           <caret line="77" column="18" lean-forward="false" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
           <folding>
             <marker date="1490007546537" expanded="true" signature="8004:8178" ph="..." />
@@ -446,32 +639,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/model_client.php">
+    <entry file="file://$PROJECT_DIR$/app/controllers/controller_searchconsole.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="348" column="18" lean-forward="false" selection-start-line="348" selection-start-column="18" selection-end-line="348" selection-end-column="18" />
-          <folding>
-            <marker date="1490007546391" expanded="true" signature="2000:2023" ph="SELECT * FRO... clients" />
-            <marker date="1490007546391" expanded="true" signature="4020:4042" ph="SELECT * FRO... agency" />
-            <marker date="1490007546391" expanded="true" signature="4318:4341" ph="SELECT * FRO... clients" />
-            <marker date="1490007546391" expanded="true" signature="6038:6149" ph="INSERT INTO gmetrix... " />
-            <marker date="1490007546391" expanded="true" signature="7122:7277" ph="INSERT INTO client_api... " />
-            <marker date="1490007546391" expanded="true" signature="11261:11435" ph="..." />
-            <marker date="1490007546391" expanded="true" signature="11443:11585" ph="..." />
-            <marker date="1490007546391" expanded="true" signature="11984:12008" ph="SELECT * FRO... client_api" />
-            <marker date="1490007546391" expanded="true" signature="12749:12914" ph="INSERT INTO client_api... " />
-            <marker date="1490007546391" expanded="true" signature="13088:13112" ph="SELECT * FRO... client_api" />
-            <marker date="1490007546391" expanded="true" signature="13459:13482" ph="SELECT * FRO... clients" />
-            <marker date="1490007546391" expanded="true" signature="13754:13776" ph="SELECT * FRO... agency" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/agency/edit_clients_view.php">
+    <entry file="file://$PROJECT_DIR$/app/controllers/controller_client.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="340" column="61" lean-forward="false" selection-start-line="340" selection-start-column="61" selection-end-line="340" selection-end-column="61" />
+        <state relative-caret-position="2295">
+          <caret line="135" column="55" lean-forward="true" selection-start-line="135" selection-start-column="55" selection-end-line="135" selection-end-column="55" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/model_client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="346" column="25" lean-forward="true" selection-start-line="346" selection-start-column="25" selection-end-line="346" selection-end-column="45" />
+          <folding>
+            <marker date="1490086488152" expanded="true" signature="2000:2023" ph="SELECT * FRO... clients" />
+            <marker date="1490086488152" expanded="true" signature="4020:4042" ph="SELECT * FRO... agency" />
+            <marker date="1490086488152" expanded="true" signature="4318:4341" ph="SELECT * FRO... clients" />
+            <marker date="1490086488152" expanded="true" signature="6038:6149" ph="INSERT INTO gmetrix... " />
+            <marker date="1490086488152" expanded="true" signature="7122:7277" ph="INSERT INTO client_api... " />
+            <marker date="1490086488152" expanded="true" signature="11457:11631" ph="..." />
+            <marker date="1490086488152" expanded="true" signature="11639:11781" ph="..." />
+            <marker date="1490086488152" expanded="true" signature="12250:12274" ph="SELECT * FRO... client_api" />
+            <marker date="1490086488152" expanded="true" signature="13015:13180" ph="INSERT INTO client_api... " />
+            <marker date="1490086488152" expanded="true" signature="13354:13378" ph="SELECT * FRO... client_api" />
+            <marker date="1490086488152" expanded="true" signature="13725:13748" ph="SELECT * FRO... clients" />
+            <marker date="1490086488152" expanded="true" signature="14020:14042" ph="SELECT * FRO... agency" />
+          </folding>
         </state>
       </provider>
     </entry>

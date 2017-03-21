@@ -302,6 +302,8 @@ class Model_Client extends Model {
         $redirect_uri = 'http://' . $_SERVER['HTTP_HOST'] . '/client/clientinfo';
 
         $client = $this->client;
+        $client->setAccessType("offline");
+        $client->setIncludeGrantedScopes(true);
         $client->setAuthConfig($oauth_credentials);
         $client->setRedirectUri($redirect_uri);
         $client->addScope("https://www.googleapis.com/auth/webmasters");
@@ -317,9 +319,12 @@ class Model_Client extends Model {
         }
 
         if (isset($_GET['code'])) {
-            $client->authenticate($_GET['code']);
-            $access_token = $client->getAccessToken();
-            //$_SESSION['search-console-token'] = $access_token;
+//            $client->authenticate($_GET['code']);
+//            $access_token = $client->getAccessToken();
+
+            $access_token = $client->fetchAccessTokenWithAuthCode($_GET['code']);
+            $client->setAccessToken($access_token);
+
             $access_token_json = json_encode($access_token);
             $res = $this->getCurrentSearchConsoleConnection($agency_id, $client_id);
             if($res){
@@ -335,17 +340,20 @@ class Model_Client extends Model {
         $accessTokenDB = $this->getAccessTokenDB($agency_id, $client_id);
         $accessTokenDB = json_decode($accessTokenDB);
         $accessTokenDB = get_object_vars($accessTokenDB);
-//        echo('<pre>');
-//        var_dump($accessTokenDB);
-//        var_dump($_SESSION['search-console-token']);
-//        die();
 
         // set the access token as part of the client
         if ($accessTokenDB) {
             $client->setAccessToken($accessTokenDB);
             if ($client->isAccessTokenExpired()) {
 
-                header('Location: '.$client->createAuthUrl());
+
+                $token = $client->refreshToken($accessTokenDB);
+                $access_token_json = json_encode($token);
+                $this->updateAccessTokenDB($agency_id, $client_id, $access_token_json);
+
+
+                //$client->setAccessToken();
+                //header('Location: '.$client->createAuthUrl());
 				//die();
             }
         } else {
@@ -364,10 +372,7 @@ class Model_Client extends Model {
         if ($client->getAccessToken()) {
             //$_SESSION['search-console-token'] = $client->getAccessToken();
             $accessToken = $client->getAccessToken();
-            //TEST MODE
             $access_token_json = json_encode($accessToken);
-//                var_dump($access_token_json);
-//                die();
             $this->updateAccessTokenDB($agency_id, $client_id, $access_token_json);
             $sitesResp = $search_service->sites->listSites();
             foreach ($sitesResp as $site){
@@ -402,7 +407,7 @@ class Model_Client extends Model {
     private function getOAuthCredentialsFile()
     {
         // oauth2 creds
-        $oauth_creds = __DIR__ . '/../../credentials/oauth-credentials.json';
+        $oauth_creds = __DIR__ . '/../../credentials/client_secret_1034352859747-kel9832nbodnkn03ktg1drcuoj8f96ma.apps.googleusercontent.com.json';
 
         if (file_exists($oauth_creds)) {
             return $oauth_creds;
